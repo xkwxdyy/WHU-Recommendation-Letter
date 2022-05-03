@@ -8,7 +8,7 @@
 
 ## 仓库地址
 
-Github：https://github.com/xkwxdyy/recommendation-letter
+Github：https://github.com/xkwxdyy/WHU-Recommendation-Letter
 
-Gitee：https://gitee.com/xkwxdyy/recommendation-letter
+Gitee：https://gitee.com/xkwxdyy/WHU-Recommendation-Letter
 
