@@ -194,6 +194,7 @@
     \int_set:Nn \clubpenalty { 300 }
     \int_set:Nn \widowpenalty { 300 }
     \keys_set:nn { whu-recommendation-letter / signature } {#1}
+    \medskip
     \__whu_recommendation_letter_signature_begin:
       #2
     \__whu_recommendation_letter_signature_end:
