@@ -81,9 +81,9 @@
   {
     a4paper,
     top        = 3cm,
-    left       = 2.5cm,
-    right      = 2.5cm,
-    bottom     = 2cm,
+    left       = 3cm,
+    right      = 3cm,
+    bottom     = 3cm,
     headheight = 3cm
   }
 
@@ -91,10 +91,10 @@
   {
     \newgeometry
       {
-        top        = 5cm,
-        left       = 2.5cm,
-        right      = 2.5cm,
-        bottom     = 2cm,
+        top        = 6cm,
+        left       = 3cm,
+        right      = 3cm,
+        bottom     = 3cm,
         headheight = 3cm
       }
     \afterpage{\aftergroup\restoregeometry}
@@ -137,7 +137,12 @@
 % 首段不缩进
 \ctexset
   {
-    section/afterindent = false
+    section = 
+      {
+        beforeskip  = 6em plus 1em minus 0.5em,
+        afterskip   = 2em plus 1em minus 0.5em,
+        afterindent = false
+      }
   }
 
 
